@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    display: flex;
+    height: 150px;
+    border: 0.5px solid rgba(202, 199, 199, 0.905);
+}
+.leftheader{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+.rightheader{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+.leftcontent{
+    width: 40%;
+    border: 0.5px solid rgba(202, 199, 199, 0.905);
+    padding-left: 80px;
+    padding-top: 30px;
+
+}
+.leftcontent ul{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.leftcontent li{
+    margin: 15px 0px 15px 0px;
+}
+.leftcontent button{
+    width: 150px;
+    height: 40px;
+    background: rgb(84, 84, 176);
+    color: white;
+
+}
+.rightcontent{
+    width: 60%;
+    border: 0.5px solid rgba(202, 199, 199, 0.905);
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.mid{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+}
+.mid img{
+    margin-top: 30px;
+}
+.mid ul{
+    margin-left: 50px;
+}
+.mid ul li{
+    padding-top: 15px;
+}
+.rightcontent > ul li{
+    font-size: 20px;
+    list-style: square;
+    margin: 20px 0 30px 0;
+}
