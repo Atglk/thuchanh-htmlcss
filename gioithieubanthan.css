@@ -9,6 +9,8 @@
     display: flex;
     height: 150px;
     border: 0.5px solid rgba(202, 199, 199, 0.905);
+    background: rgba(227, 222, 222, 0.862);
+    
 }
 .leftheader{
     width: 40%;
@@ -30,6 +32,9 @@
     display: flex;
     justify-content: center;
     height: 450px;
+    background: rgba(227, 222, 222, 0.862);
+    
+
 }
 .leftcontent{
     width: 40%;
