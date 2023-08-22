@@ -11,7 +11,7 @@
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 2px;
+    margin-top: px;
     font-size: 18px;
 }
 .header-left{
@@ -30,7 +30,7 @@
 } */
 .under-left{
     height: 1px;
-    width: 200px;
+    width: 220px;
     border: 1px solid black;
 }
 .header-right{
@@ -42,7 +42,7 @@
 }
 .under-right{
     height: 1px;
-    width: 210px;
+    width: 225px;
     border: 1px solid black;
 }
 .middle1{
